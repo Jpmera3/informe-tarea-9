@@ -316,6 +316,75 @@ para el circuito b:
 
 ![image](https://user-images.githubusercontent.com/104911658/222805482-be686f73-008f-41ac-baa8-a1707feb0366.png)
 
+Respuesta
 
+El nuevo circuito tiene como resistencia 49.03kΩ
 
+valor de inductancia de 17.44kH.
 
+31. En la figura 17-67, ¿cuál es el ángulo de fase entre I2 y el voltaje de fuente?
+
+![image](https://user-images.githubusercontent.com/104911658/222805586-909c9466-0eb2-4d68-b156-c933a7629f4e.png)
+
+![image](https://user-images.githubusercontent.com/104911658/222805624-515f67db-0bb3-4110-aed4-826754afc75c.png)
+
+33. Determine la corriente a través de cada componente mostrado en la figura 17-68. Encuentre el voltaje entre las terminales de cada componente.
+
+![image](https://user-images.githubusercontent.com/104911658/222805663-64660f5f-a81f-4a50-9f29-abf5054f8703.png)
+
+![image](https://user-images.githubusercontent.com/104911658/222805687-ac363934-95da-4a6a-9452-81551320fdc2.png)
+
+35. Si el valor de C es de 0.22 µF, ¿cuál es la corriente a través de un resistor de 100 Ω conectado de a a b en la figura 17-69?
+
+![image](https://user-images.githubusercontent.com/104911658/222805751-7b4ab77f-9214-4c5c-b01e-3094d67e3769.png)
+
+Calcular la impedancia del conductor e inductor:
+
+![image](https://user-images.githubusercontent.com/104911658/222805789-27dda3d4-2bbd-4d12-9dca-770f779a3e14.png)
+
+Calcular la resistencia total:
+
+![image](https://user-images.githubusercontent.com/104911658/222805838-90306ddc-269a-43dd-8565-1bdfbb7e7302.png)
+
+![image](https://user-images.githubusercontent.com/104911658/222805864-19d3f5bc-c2a6-4ed5-9340-e1c9d7b3231f.png)
+
+![image](https://user-images.githubusercontent.com/104911658/222805884-a791b76a-ab4c-464b-ae24-d1cc7f54f862.png)
+
+37. Determine las frecuencias resonantes y el voltaje de salida en cada frecuencia mostrada en la figura 17-70.
+
+![image](https://user-images.githubusercontent.com/104911658/222805948-4a819158-4ac2-4483-be47-8ee74a5c4faa.png)
+
+![image](https://user-images.githubusercontent.com/104911658/222805972-95141b07-c9e1-442a-9b04-268c247cf589.png)
+
+![image](https://user-images.githubusercontent.com/104911658/222806006-9085b400-e5ba-48ce-8c2d-7fc2991f14b0.png)
+
+39. En condición de resonancia, XL = 2 kΩ y RW 25Ω en un circuito RLC en paralelo. La frecuencia resonante es de 5 kHz. Determine el ancho de banda.
+
+Para la resolución del problema se tiene las siguientes formulas:
+
+El factor Q:
+
+![image](https://user-images.githubusercontent.com/104911658/222806091-7841c24f-32a2-457f-8dfa-1cdd401c8734.png)
+
+Un valor alto de Q produce un ancho de banda más angosto. Un valor bajo de Q produce un ancho de banda más amplio. En la siguiente ecuación se establece una fórmula para el ancho de banda de un circuito resonante en función de Q:
+
+![image](https://user-images.githubusercontent.com/104911658/222806142-54cc9235-5453-43a5-9c9f-1cf2f97942d0.png)
+
+41. En cierto circuito RLC, la potencia en condición de resonancia es de 2.75 W. ¿Cuál es la potencia a la frecuencia crítica baja?
+
+En condición de resonancia:
+
+![image](https://user-images.githubusercontent.com/104911658/222806234-fd50237f-b022-4922-9c73-4252e623f74f.png)
+
+![image](https://user-images.githubusercontent.com/104911658/222806277-dafcda2b-5a7a-44fd-8082-aad292774f28.png)
+
+43. Cierto circuito resonante en paralelo tiene un factor Q de 50 y un AB de 400 Hz. Si Q se duplica, ¿cuál es el ancho de banda a la misma fr?
+En la siguiente ecuación se establece una fórmula para el ancho de banda de un circuito resonante en función de Q:
+
+![image](https://user-images.githubusercontent.com/104911658/222806359-572a7176-f340-439f-be84-32ddf73a2b02.png)
+
+![image](https://user-images.githubusercontent.com/104911658/222806376-5768f8b2-9977-415d-bdf8-fc8776a7f2b0.png)
+
+![image](https://user-images.githubusercontent.com/104911658/222806401-ede7bc4e-616d-4d03-9c7c-623d87fb9237.png)
+
+EJERCICIOS DEL CAPITULO 18
