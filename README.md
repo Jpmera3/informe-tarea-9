@@ -388,3 +388,342 @@ En la siguiente ecuación se establece una fórmula para el ancho de banda de un
 ![image](https://user-images.githubusercontent.com/104911658/222806401-ede7bc4e-616d-4d03-9c7c-623d87fb9237.png)
 
 EJERCICIOS DEL CAPITULO 18
+
+1. En cierto filtro pasabajas, XC = 500 Ω y R = 2.2 kΩ. ¿Cuál es el voltaje de salida (Vsal) cuando la entrada es de 10 V rms?
+
+![image](https://user-images.githubusercontent.com/104911658/222806556-ae92c670-6b27-47d1-a4d3-202f2e0fe6ae.png)
+
+3. Determine el voltaje de salida (Vsal) de cada filtro mostrado en la figura 18-38 a la frecuencia especificada cuando Vent = 10 V
+
+![image](https://user-images.githubusercontent.com/104911658/222806614-88b3e9fb-99aa-419a-8a25-3e567a49c556.png)
+
+![image](https://user-images.githubusercontent.com/104911658/222806746-b5a6e6ab-0d1b-4c71-8579-047e3f43e6df.png)
+
+![image](https://user-images.githubusercontent.com/104911658/222806767-1069b90b-e8b0-4751-9ac2-df5202df4023.png)
+
+5. Para el filtro de la figura 18-39, calcule el valor de C requerido para cada una de las siguientes frecuencias críticas:
+
+![image](https://user-images.githubusercontent.com/104911658/222806809-0984ebde-077a-4174-ac47-72f2317d6d2b.png)
+
+c=1/2πRC
+
+fc2πR=1/C
+
+C= 1/(fc2πR)
+
+Reemplazando valores
+
+(a) 60 Hz
+
+C= 1/(60Hz2π220Ω)
+
+C= 0.000012057 F=12.1 μF
+
+(b) 500 Hz
+
+C= 1/(500Hz2π220Ω)
+
+C= 0.000001447 F=1.45 μF
+
+(c) 1 kHz
+
+C= 1/(1000 Hz2π220Ω)
+
+C= 0.000000723 F=0.72 μF
+
+(d) 5 kHz
+
+C= 1/(5000 Hz2π220Ω)
+
+C= 0.000000145 F=0.145 μF
+
+7. Trace una curva de Bode para cada una de las partes del problema 5.
+
+![image](https://user-images.githubusercontent.com/104911658/222806891-202544bf-9961-4b6b-934f-b85f39cd4448.png)
+
+![image](https://user-images.githubusercontent.com/104911658/222806920-20a0c1fa-c68e-4ea4-8e3d-0602ae548ae1.png)
+
+![image](https://user-images.githubusercontent.com/104911658/222806944-fbc6ec27-0723-4c41-b590-66d38b040189.png)
+
+![image](https://user-images.githubusercontent.com/104911658/222806972-05803352-b500-4d9e-b617-e86ac65f1bbe.png)
+
+9. El voltaje de entrada a un filtro RC pasabajas es de 8 V rms. Determine el voltaje de salida a los siguientes niveles de dB:
+20*log⁡(Vsalida/Ventrada)=dB
+
+log⁡(Vsalida/(8 Vrms))=dB/20
+
+Vsalida/(8 Vrms)=e^(dB/20)
+
+Vsalida=8 Vrms* e^(dB/20)
+
+Reemplazando valores
+
+(a) -1 dB
+
+Vsalida=8 Vrms* e^((-1)/20)
+
+Vsalida=7.61 V
+
+(b) -3 dB
+
+Vsalida=8 Vrms* e^((-3)/20)
+
+Vsalida=6.89 V
+
+(c) -6 dB
+
+Vsalida=8 Vrms* e^((-6)/20)
+
+Vsalida=5.92 V
+
+(d) -20 dB
+
+Vsalida=8 Vrms* e^((-20)/20)
+
+Vsalida=2.94 V
+
+11. En un filtro pasaaltas, XC =500 Ω y R =2.2 kΩ. ¿Cuál es el voltaje de salida (Vsal) cuando Vent = 10 V rms?
+Vsalida=(R/√(R^2+〖Xc〗^2 ))*Ventrada
+
+Vsalida=(2200/√(2200^2+500^2 ))*10
+
+Vsalida=9.75 Vrms
+
+Desplazamiento de fase
+
+φ=〖tan〗^(-1) (Xc/R)
+
+φ=〖tan〗^(-1) (500/2200)
+
+φ=12.80°
+
+El voltaje
+
+Vsalida=9.75∠12.8° V
+
+13. Determine el voltaje de salida de cada filtro mostrado en la figura 18-41 a la frecuencia especificada cuando Vent = 10 V.
+
+![image](https://user-images.githubusercontent.com/104911658/222807097-2bb1d37c-7a83-45c5-842a-5a9fc8851750.png)
+
+Reactancia capacitiva
+
+Xc=1/(2πfC)
+
+Xc=1/(2π60Hz10μF)=265 Ω
+
+Vsalida=(R/√(R^2+〖Xc〗^2 ))*Ventrada
+
+Vsalida=(100/√(100^2+265^2 ))*10
+
+Vsalida=3.53 Vrms
+
+Desplazamiento de fase
+
+φ=〖tan〗^(-1) (Xc/R)
+
+φ=〖tan〗^(-1) (265/100)
+
+φ=69.33°
+
+El voltaje
+
+Vsalida=3.53∠69.33° V
+
+![image](https://user-images.githubusercontent.com/104911658/222807160-8272b222-07ee-4968-aca7-46e8138bd719.png)
+
+Reactancia capacitiva
+
+Xc=1/(2πfC)
+
+Xc=1/(2π400Hz4.7μF)=84.6 Ω
+
+Vsalida=(R/√(R^2+〖Xc〗^2 ))*Ventrada
+
+Vsalida=(47/√(47^2+〖84.6〗^2 ))*10
+
+Vsalida=4.85 Vrms
+
+Desplazamiento de fase
+
+φ=〖tan〗^(-1) (Xc/R)
+
+φ=〖tan〗^(-1) (84.6/47)
+
+φ=60.95°
+
+El voltaje
+
+Vsalida=4.85∠60.95° V
+
+![image](https://user-images.githubusercontent.com/104911658/222807207-d8f54525-0b15-4a71-b7f1-25dff0323261.png)
+
+Rw=2πf*L
+
+Rw=2π1000 Hz*,005 H=31.42
+
+Vsalida=(R/(R+Rw))*Ventrada
+
+Vsalida=(330/(330+31.42))*10
+
+Vsalida=9.47mVrms
+
+Desplazamiento de fase
+
+φ=〖tan〗^(-1) (Rw/R)
+
+φ=〖tan〗^(-1) (3142/330)
+
+φ=84°
+
+El voltaje
+
+Vsalida=9.4∠84° mV
+
+15. Trace la curva de Bode para cada filtro mostrado en la figura 18-41.
+
+![image](https://user-images.githubusercontent.com/104911658/222807288-b75e0b05-d84b-4ae8-9e6c-ed6dba905d72.png)
+
+17. Determine la frecuencia central para cada filtro de la figura 18-43.
+
+![image](https://user-images.githubusercontent.com/104911658/222807360-6b8c781e-0133-4bc2-aa62-b5d38f78c1ee.png)
+
+fo=√(1-(〖Rw〗^2C/L))/(2π√(LC))
+
+fo=√(1-(0^20.01μF/12mH))/(2π√(12mH0.01μF))
+
+fo=14.5 kHz
+
+![image](https://user-images.githubusercontent.com/104911658/222807396-c46b5dab-b182-4b7d-ae18-a4e71591160b.png)
+
+fo=√(1-(〖Rw〗^2C/L))/(2π√(LC))
+
+fo=√(1-(0^20.022μF/2mH))/(2π√(2mH0.022μF))
+
+fo=24.0 kHz
+
+19. ¿Cuáles son las frecuencias críticas alta y baja para cada filtro de la figura 18-43? Suponga que la respuesta es simétrica con respecto a f0.
+
+![image](https://user-images.githubusercontent.com/104911658/222807474-7f181f58-99ea-4785-92a8-a3f015a68ed9.png)
+
+fc=1/(2π*L/R)
+
+fc=1/(2π*1H/680Ω)
+
+fc=15.06 kHz
+
+fc=1/(2πRC)
+
+fc=1/(2π680Ω10μF)
+
+fc=13.94 kHz
+
+![image](https://user-images.githubusercontent.com/104911658/222807513-2f5aa31b-0243-4e2b-a5b2-4fb319acb48a.png)
+
+fc=1/(2π*L/R)
+
+fc=1/(2π*(2.5 μH)/(1 kΩ))
+
+fc=25.3 kHz
+
+fc=1/(2πRC)
+
+fc=1/(2π1 kΩ25pF)
+
+fc=22.7 kHz
+
+21. Si la resistencia de devanado de las bobinas que aparecen en la figura 18-44 es de 4 Ω, ¿cuál es el voltaje de salida en condición de resonancia cuando Vent = 120 V?
+
+![image](https://user-images.githubusercontent.com/104911658/222807564-ee610205-bb75-4c4d-9b98-7acb944c1077.png)
+
+Vsalida=(R/(R+Rw))*Ventrada
+
+Vsalida=(680/(680+4))*120V
+
+Vsalida=119.29V
+
+![image](https://user-images.githubusercontent.com/104911658/222807607-a277c656-5e7f-4812-8733-529ca11fb03e.png)
+
+Vsalida=(R/(R+Rw))*Ventrada
+
+Vsalida=(1000/(1000+4))*120V
+
+Vsalida=119.52V
+
+23. Diseñe un filtro pasabanda utilizando un circuito resonante paralelo que satisfaga las siguientes especificaciones: AB = 500 Hz; Q = 40; e IC(máx) =20 mA, VC(máx) =2.5 V. Entonces
+
+el valor de la capaitancia es 0.064 uF
+
+La inductancia debe ser de 989 uH
+
+la frecuencia f= 20 kHz
+
+25. Para cada filtro de la figura 18-47, determine la frecuencia central de la banda de rechazo
+
+![image](https://user-images.githubusercontent.com/104911658/222807704-b68c29a1-5690-45f2-83f6-1bfbcf1ab6a9.png)
+
+F0=sqrt(1-R^2*C/L)/2piSqrt(LC)
+
+F0= sqrt(1-1000^26.8/0,5)/2piSqrt(0.56,8)
+
+F0=318Hz
+
+![image](https://user-images.githubusercontent.com/104911658/222807738-2bf2087f-fb12-4561-bcc2-4ef4cffd9600.png)
+
+F0=sqrt(1-R^2*C/L)/2piSqrt(LC)
+
+F0= sqrt(1-2200^247/10)/2piSqrt(1047)
+
+F0=10,21Hz
+
+27. Determine los valores de L1 y L2 en la figura 18-48 para dejar pasar una señal con frecuencia de 1200 kHz y rechazar una señal con frecuencia de 456 kHz.
+
+![image](https://user-images.githubusercontent.com/104911658/222807808-9a0ae6ef-dd11-4ef0-b813-79a60109e536.png)
+
+fo=√(1-(〖Rw〗^2C/L))/(2π√(LC))
+
+Si Rw = 0 ohmios
+
+fo=1/(2π√(L*C))
+
+2πfo=1/√(LC)
+
+√(2πfo)=1/(LC)
+
+L=C/√(2π*fo )
+
+Reemplazando datos
+
+Fo = 1200 kHz
+
+L=(0.22 μF)/√(2π*1200 kHz )
+
+L=0.0025 μH
+
+Fo = 456 kHz
+
+L=(0.22 μF)/√(2π*456 kHz )
+
+L=0.004 μH
+
+VIDEO
+
+
+
+CONCLUSIONES
+
+* Como conclusión, un circuito RLC en serie está formado por una resistencia, un inductor y un condensador. Las reactancias inductiva y capacitiva tienen efectos opuestos en el ángulo de fase del circuito, de modo que la reactancia global es menor que las reactancias individuales, pero como la resonancia es una situación en la que las reactancias capacitiva e inductiva son iguales, se anulan mutuamente, dando lugar a una impedancia puramente resistiva.
+
+* Tambien, en un circuito en serie RLC, las tensiones entre los terminales del condensador y los terminales del inductor están siempre separadas 180°. Por lo tanto, VC y VL se restan entre sí, de modo que la suma de las tensiones en L y C es siempre menor que la tensión máxima individual entre los terminales de cualquiera de los componentes.
+
+* Los filtros de pasaaltas permite que fluya señales de alta frecuencia y los filtros de pasabajas permite quefluya las señales de baja frecuencia.
+
+* Los filtros de pasabanda permite que pasen las señales que se encuentran en un determinado intervalo de frecuencia si una frecuencia se pasa del intervalo es eliminada y los filtros de rechazabanda es lo opuesto a los filtros de pasabanda debido a que determina el intervalo de frecuencia donde las frecuencias son rechazadas.
+
+* Dentro de las relaciones de corriente se tiene que en un circuito RLC dispuesto en paralelo, las corrientes que circulan por las ramas capacitiva e inductiva siempre están desfasadas en 180° entre sí (omitiendo cualquier resistencia de bobina).
+
+BIBLIOGRAFÍA
+
+* Floyd, T. (2007). Principios de circuitos eléctricos. PEARSON Educación. https://drive.google.com/file/d/15UCq2JrPEKKB8SwajlmtTcE07nMiowaK/view
+
+
+
